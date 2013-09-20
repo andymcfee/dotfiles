@@ -1,4 +1,4 @@
-# Paul's dotfiles
+# Andy's dotfiles
 
 [mathias's readme](https://github.com/mathiasbynens/dotfiles/) is awesome. go read it.
 
