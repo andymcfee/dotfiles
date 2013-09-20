@@ -1,5 +1,5 @@
-# Make vim the default editor
-export EDITOR="vim"
+# Make Sublime the default editor
+export EDITOR="subl -w"
 # Don’t clear the screen after quitting a manual page
 export MANPAGER="less -X"
 
@@ -15,3 +15,13 @@ export HISTTIMEFORMAT
 
 # Make some commands not show up in history
 export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
+
+
+# Show Git Branch in Terminal
+export GITAWAREPROMPT=~/.bash/git-aware-prompt
+source $GITAWAREPROMPT/main.sh
+#export PS1="\h\[$txtcyn\]\$git_branch\[$txtylw\]\$git_dirty\[$txtrst\] \W $ "
+
+#export SUDO_PS1="\[$bakred\]\u@\h\[$txtrst\] \w\$ "
+
+export GIT_EDITOR='subl --wait'
