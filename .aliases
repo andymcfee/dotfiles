@@ -1,6 +1,5 @@
 # Terminal shortcuts
-alias bash='subl ~/.bash_profile'
-alias sshandy="ssh andymcfee.com@andymcfee.com"
+alias dotfilespls="cd ~/Github/dotfiles && ./sync.sh && cd ~"
 
 # Easier navigation: .., ..., ~ and -
 alias ..="cd .."
@@ -13,8 +12,7 @@ alias -- -="cd -"
 alias reload!="touch ~/.bash_profile"
 
 
-alias deployandy="ssh andymcfee.com@andymcfee.com; cd domains/andymcfee.com/html/andymcfee.com/"
-alias idea="subl ~/Dropbox/github/andymcfee.com/ideas.txt"
+alias idea="subl ~/Dropbox/github/andymcfee.com/ideas.txt" #Need to fix this one once I unify my file structure
 # GIT
 alias gs="git status"
 alias gpull="git pull origin dev"
