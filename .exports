@@ -21,4 +21,4 @@ export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
 
 #export SUDO_PS1="\[$bakred\]\u@\h\[$txtrst\] \w\$ "
 
-export GIT_EDITOR='subl --wait'
+export GIT_EDITOR='subl -w'
