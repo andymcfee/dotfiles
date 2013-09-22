@@ -19,6 +19,8 @@ npm install -g nave
 # you need the code CLI tools YOU FOOL.
 ruby <(curl -fsSkL raw.github.com/mxcl/homebrew/go)
 
+# Git Completion
+curl https://raw.github.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
 
 
 # https://github.com/rupa/z
