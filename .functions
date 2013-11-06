@@ -3,6 +3,10 @@ function md() {
 	mkdir -p "$@" && cd "$@"
 }
 
+function new() {
+  mkdir -p "$@" && cd "$@"
+}
+
 
 # find shorthand
 function f() {

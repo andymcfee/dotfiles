@@ -26,7 +26,6 @@ alias gnew="git checkout -b"
 alias gdelete_local="git branch -D"
 alias gdl="git branch -D"
 alias gpop="git stash pop"
-#alias gdlall="git branch -d `git branch --merged | grep -v '^*' | tr -d '\n'`"
 alias gdr="git push origin --delete"
 
 # Stuff I never really use but cannot delete either because of http://xkcd.com/530/
