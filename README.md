@@ -84,5 +84,5 @@ I recommend getting a [`.jshintrc`](https://github.com/jshint/node-jshint/blob/m
 git clone https://github.com/andymcfee/dotfiles.git && cd dotfiles && ./sync.sh
 ```
 
-To update later on, just run `dotfilespls`
+To update later on, just run `dotfilespls` in terminal
 
