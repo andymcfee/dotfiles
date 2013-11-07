@@ -48,3 +48,6 @@
 [user]
 	email = andy.mcfee@gmail.com
 	name = Andy McFee
+
+[url "https://"]
+	insteadOf = git://
