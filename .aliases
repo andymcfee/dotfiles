@@ -12,9 +12,7 @@ alias -- -="cd -"
 alias reload!="touch ~/.bash_profile"
 
 
-alias idea="subl ~/Dropbox/github/andymcfee.com/ideas.txt" #Need to fix this one once I unify my file structure
-# GIT
-alias gs="git status"
+alias gs="git status -sb"
 alias gpull="git pull origin dev"
 alias gcheckout="git checkout dev"
 alias gcheck="git checkout dev"
@@ -27,29 +25,12 @@ alias gdelete_local="git branch -D"
 alias gdl="git branch -D"
 alias gpop="git stash pop"
 alias gdr="git push origin --delete"
+alias gamend="git commit --amend -C HEAD"
+alias gundo="git reset --soft HEAD^"
+alias gcount="git shortlog -sn"
 
 # Stuff I never really use but cannot delete either because of http://xkcd.com/530/
 alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume 10'"
 alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
 
-# Apparating
-alias cdgithub="cd ~/Dropbox/github"
-alias cdgh="cd ~/Dropbox/github"
-alias cdsqli="cd ~/Dropbox/SQLI/Projects"
-alias cdandy="cd ~/Dropbox/github/andymcfee.com"
-alias cdte="cd ~/Dropbox/SQLI/Projects/PMI/SUA0102-IS-T&E_Mobilization/5 - Dev/development"
-
-
-# Jekyll
-alias jkl="jekyll"
-
-alias jdev="jekyll build --watch --config _config.yml,_config-dev.yml"
-alias jkldev="jekyll build --watch --config _config.yml,_config-dev.yml"
-alias jekylldev="jekyll build --watch --config _config.yml,_config-dev.yml"
-
-alias jint="jekyll build --config _config.yml,_config-dev.yml,_config-int.yml"
-
-alias jbuild="jekyll build"
-alias jklbuild="jekyll build"
-alias jekyllbuild="jekyll build"
