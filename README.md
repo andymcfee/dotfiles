@@ -85,4 +85,3 @@ git clone https://github.com/andymcfee/dotfiles.git && cd dotfiles && ./sync.sh
 ```
 
 To update later on, just run `dotfilespls` in terminal
-

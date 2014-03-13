@@ -160,3 +160,27 @@ gifify() {
   fi
 }
 
+# toggle wifi on/off using command line
+function togglewifi() {
+  local wifindx=-1
+  local count=0
+  while read -r line; do
+    if [ "$line" == "Wi-Fi" ]
+    then
+      # count - 1 in order to ingnore the first line
+      # of the command output
+      wifindx=`expr $count - 1`
+    fi
+    (( count++ ))
+  done < <(networksetup -listallnetworkservices)
+
+  local wifstatus="$(networksetup -getairportpower en$wifindx)"
+  if [ "$wifstatus" == "Wi-Fi Power (en$wifindx): Off" ]
+  then
+    networksetup -setairportpower en$wifindx on
+    echo "starting wifi..."
+  else
+    networksetup -setairportpower en$wifindx off
+    echo "stopping wifi..."
+  fi
+}
