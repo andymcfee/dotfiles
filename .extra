@@ -1,7 +1,0 @@
-PATH=/usr/local/bin:$PATH
-PATH=$PATH:/opt/local/sbin
-PATH=$PATH:/bin
-PATH=$PATH:~/.rvm/bin
-PATH=$PATH:~/code/git-friendly
-
-export PATH
