@@ -29,6 +29,8 @@ alias gamend="git commit --amend -C HEAD"
 alias gundo="git reset --soft HEAD^"
 alias gcount="git shortlog -sn"
 
+alias myssh="pbcopy < ~/.ssh/id_rsa.pub"
+
 # Stuff I never really use but cannot delete either because of http://xkcd.com/530/
 alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume 10'"
