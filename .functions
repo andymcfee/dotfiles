@@ -7,6 +7,9 @@ function new() {
   mkdir -p "$@" && cd "$@"
 }
 
+function editconflicts() {
+  subl  $(git diff --name-only --diff-filter=U | xargs)
+}
 
 # find shorthand
 function f() {
