@@ -27,7 +27,7 @@
 	log = true
 # `git push` = `git push origin current-branch`
 [push]
-	default = simple
+	default = matching
 [url "git@github.com:"]
 	insteadOf = "gh:"
 	pushInsteadOf = "github:"
